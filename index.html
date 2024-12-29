@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+            font-size: 40px; /* Increased font size */
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 50px; /* Main heading font size */
+            margin: 0;
+        }
+        h2 {
+            font-size: 44px; /* Subheading font size */
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px;
+        }
+        nav button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav button:hover {
+            background-color: #45a049;
+        }
+        section {
+            padding: 30px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            font-size: 20px;
+        }
+        section h2 {
+            color: #4CAF50;
+        }
+        #familyMemories h2 {
+            color: #FF6347; /* Tomato Red */
+        }
+        #familyPhotos h2 {
+            color: #1E90FF; /* Dodger Blue */
+        }
+        #contactUs h2 {
+            color: #FFD700; /* Gold */
+        }
+        #address h2 {
+            color: #8A2BE2; /* BlueViolet */
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 250px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 18px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our Family Website</h1>
+        <h2>Our Family Story</h2>
+    </header>
+
+    <nav>
+        <button onclick="document.getElementById('aboutUs').scrollIntoView()">About Us</button>
+        <button onclick="document.getElementById('familyMemories').scrollIntoView()">Family Memories</button>
+        <button onclick="document.getElementById('familyPhotos').scrollIntoView()">Family Photos</button>
+        <button onclick="document.getElementById('contactUs').scrollIntoView()">Contact Us</button>
+        <button onclick="document.getElementById('address').scrollIntoView()">Address</button>
+    </nav>
+
+    <section id="aboutUs">
+        <h2>About Us</h2>
+        <p>Our family has a rich history filled with love, traditions, and unforgettable moments. My family comes from Lamjung, and we are proud of our cultural heritage. One of the traditions we cherish is Dashain. These moments remind us of the values that bring us together, such as love, respect, and support.</p>
+        <p>Over the years, we’ve shared countless memories that have shaped who we are today. It’s these little moments that remind us of the importance of being together as a family.</p>
+    </section>
+
+    <section id="familyMemories">
+        <h2>Family Memories</h2>
+        <p>Today is the first day of our tour with the family. We started from Kathmandu at around 7 o'clock in the morning, heading to Chitwan by car. We had lunch along the way. Our destination was Sauraha, Chitwan, and the road we took was very dangerous. At one point, the dust was so thick we couldn't even see the road. The road was not peaceful, and our car was driving slowly. We reached Sauraha at night and stayed in a jungle resort.</p>
+        <p>The next day, we had breakfast and lunch at the Elephant Reproduction Center, where we saw more than 40 elephants, including some baby elephants. We also saw tigers in cages and rhinos in the wild. Afterward, we visited the wildlife museum. Later, we went to Bishajari Taal and had fun with our families, before staying in the Power Hotel at night.</p>
+        <p>The next day, we went to Lumbini, and in the evening we stayed at Power Hotel again. The following day, we went to Palpa and reached there by night.</p>
+    </section>
+
+    <section id="familyPhotos">
+        <h2>Family Photos</h2>
+        <div class="gallery">
+            <img src="1.jpg" alt="Photo 1">
+            <img src="2.jpg" alt="Photo 2">
+            <img src="3.jpg" alt="Photo 3">
+            <img src="4.jpg" alt="Photo 4">
+            <img src="5.jpg" alt="Photo 5">
+            <img src="6.jpg" alt="Photo 6">
+            <img src="7.jpg" alt="Photo 7">
+            <img src="8.jpg" alt="Photo 8">
+            <img src="9.jpg" alt="Photo 9">
+            <img src="10.jpg" alt="Photo 10">
+        </div>
+    </section>
+
+    <section id="contactUs">
+        <h2>Contact Us</h2>
+        <p>Email: shekharadhikari2011@gmail.com, tirthaadhikari98@gmail.com, laxmiparajuli128@gmail.com</p>
+        <p>Phone: +9779841372539 / +9779841720273</p>
+        <p>Facebook: Shekhar Adhikari / Tirtha Adhikari / Laxmi Parajuli</p>
+    </section>
+
+    <section id="address">
+        <h2>Our Address</h2>
+        <p>Sitapaila, Kathmandu, Nepal, Asia, Earth</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
